@@ -2,11 +2,11 @@ namespace SpriteKind {
     export const otherkind = SpriteKind.create()
 }
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite2.sayText("AAAAAAAAAHHHHHHHHHHHH", 2000, false)
+    mySprite2.sayText("AAAAAAAAAHHHHHHHHHHHH", 5000, false)
 })
 // (a) is the same thing as [Space]
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.sayText("save me")
+    mySprite.sayText("save me", 5000, false)
 })
 let projectile4: Sprite = null
 let projectile: Sprite = null
