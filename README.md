@@ -1,7 +1,7 @@
  
 
 
-> Open this page at [https://theyx144.github.io/basic_makecode1/](https://theyx144.github.io/basic_makecode1/)
+> Open this page at [https://theyx144.github.io/EsapeErrorSimulator/](https://theyx144.github.io/EsapeErrorSimulator/)
 
 ## Use as Extension
 
@@ -10,7 +10,7 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/theyx144/basic_makecode1** and import
+* search for **https://github.com/theyx144/EsapeErrorSimulatorbasic_makecode1** and import
 
 ## Edit this project ![Build status badge](https://github.com/theyx144/basic_makecode1/workflows/MakeCode/badge.svg)
 
@@ -18,7 +18,7 @@ To edit this repository in MakeCode.
 
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/theyx144/basic_makecode1** and click import
+* paste **https://github.com/theyx144/EsapeErrorSimulator** and click import
 
 ## Blocks preview
 
