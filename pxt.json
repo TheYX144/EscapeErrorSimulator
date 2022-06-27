@@ -1,8 +1,10 @@
 {
-    "name": "Basic_Makecode1",
+    "name": "EscapeErrorSimulator",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "sprite-scaling": "*"
     },
     "files": [
         "main.blocks",
