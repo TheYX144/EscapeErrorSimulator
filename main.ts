@@ -1,9 +1,16 @@
+namespace SpriteKind {
+    export const otherkind = SpriteKind.create()
+}
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite2.sayText("AAAAAAAAAHHHHHHHHHHHH", 2000, false)
+})
 // (a) is the same thing as [Space]
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.sayText("save me")
 })
 let projectile4: Sprite = null
 let projectile: Sprite = null
+let mySprite2: Sprite = null
 let mySprite: Sprite = null
 color.setPalette(
 color.Arcade
@@ -154,6 +161,8 @@ scene.setBackgroundImage(img`
     8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
     8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
     `)
+mySprite2 = sprites.create(assets.image`humanthing`, SpriteKind.otherkind)
+mySprite2.setPosition(136, 83)
 forever(function () {
     pause(100)
     projectile = sprites.createProjectileFromSprite(img`
