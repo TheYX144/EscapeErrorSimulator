@@ -5,8 +5,7 @@
     "dependencies": {
         "device": "*",
         "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
-        "sprite-scaling": "*",
-        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+        "sprite-scaling": "*"
     },
     "files": [
         "main.blocks",
@@ -26,5 +25,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
